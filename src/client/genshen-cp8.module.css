@@ -1,0 +1,70 @@
+/**
+ * 原神CP8 · 胡桃×芙宁娜 —— 界面配色变量
+ *
+ * 本文件同时被两个消费者读取:
+ *   1. DeepKing 的皮肤转换器(src/utils/skinConverter.ts)—— 抓取「--名: 色值」
+ *   2. 本仓库自己的页面/主题
+ *
+ * 关于变量命名规则、为什么夜景配色用 duskcolor 前缀、
+ * 以及注释里绝对不能写的四种字符, 全部记在 src/client/SKIN-NOTES.md。
+ * 改本文件前请先读那份说明, 改完运行: genshen-cp8 deepking --check
+ *
+ * 主色取自插画采样: 胡桃的赤褐与朱红, 对撞芙宁娜的冰蓝与霜白。
+ */
+
+:root {
+  /* 亮色 · 宣纸暖白(取自节日那张的暖底) */
+
+  /* 底色: 主背景、层2、层3 */
+  --bg-base: #fdf8f3;
+  --bg-layer-1: #fdf8f3;
+  --bg-layer-2: #f7ece7;
+  --bg-layer-3: #edd9d2;
+
+  /* 文字: 主、次、弱 —— 深褐墨 */
+  --label-primary: #2a1c1a;
+  --label-secondary: #5c4340;
+  --label-tertiary: #8d7370;
+
+  /* 品牌强调色: 胡桃的朱红 */
+  --brand-primary: #c8433a;
+  --accent: #c8433a;
+  --primary: #c8433a;
+
+  /* 交互态 */
+  --interactive-bg-hover-solid: #f6e2dd;
+  --interactive-bg-active: #ecc9c1;
+
+  /* 边框 */
+  --border-l1: #eddad3;
+  --border-l2: #dcc2b9;
+  --border: #dcc2b9;
+
+  /* 状态色 */
+  --system-warn-bg: #fff4dd;
+  --system-warn-text: #8a5a00;
+}
+
+/* 夜景配色(取自节日夜景与芙宁娜的冰蓝): 主题名 midnight, 变量统一 duskcolor 前缀 */
+[data-theme="midnight"],
+.midnight-theme {
+  --duskcolor-bgbase: #141b2b;
+  --duskcolor-bglayer2: #1d2740;
+  --duskcolor-bglayer3: #283453;
+
+  --duskcolor-labelprimary: #e7edf7;
+  --duskcolor-labelsecondary: #b0bfd6;
+  --duskcolor-labeltertiary: #7f8fa8;
+
+  /* 夜间强调色: 朱红提亮一档, 保证深底上的可读性 */
+  --duskcolor-brandprimary: #e2604f;
+
+  --duskcolor-hoversolid: #283453;
+  --duskcolor-activebg: #36456b;
+
+  --duskcolor-borderl1: #2b3856;
+  --duskcolor-borderl2: #3b4b70;
+
+  --duskcolor-warnbg: #3a2f14;
+  --duskcolor-warntext: #ecd39a;
+}

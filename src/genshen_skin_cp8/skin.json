@@ -1,0 +1,19 @@
+{
+  "name": "原神CP8 · 胡桃×芙宁娜",
+  "nameEn": "Genshen CP8 . Hu Tao x Furina",
+  "accent": "#c8433a",
+  "tagline": "往生堂 × 枫丹廷：朱红 × 冰蓝 × 暖金",
+  "description": "原神 CP 壁纸套件8 的 DeepKing 界面皮肤。主色取自插画采样: 胡桃的赤褐与朱红, 对撞芙宁娜的冰蓝与霜白; 亮色为宣纸暖白, 夜景为墨蓝夜色。",
+  "version": "0.1.0",
+  "license": "MIT",
+  "homepage": "https://github.com/WPH666-py/Genshen-skin-CP8",
+  "keywords": [
+    "原神",
+    "genshin",
+    "skin",
+    "deepking",
+    "胡桃",
+    "芙宁娜",
+    "壁纸"
+  ]
+}

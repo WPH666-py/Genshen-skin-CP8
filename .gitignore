@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.eggs/
+build/
+dist/
+*.egg
+*.egg-info/
+*.egg-info
+.venv/
+venv/
+env/
+
+# 打包/测试临时产物(仓库根的源码副本)
+/genshin_skin_cp1-*/
+
+# 编辑器 / 系统
+.vscode-test/
+.node_modules/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# 本地生成的壁纸(运行时产物不该进仓库)
+.wallpapers/

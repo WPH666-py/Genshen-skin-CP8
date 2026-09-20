@@ -1,0 +1,18 @@
+# 打进 vsix 的只需要: extension.js / package.json / media/(不含文档用的总览图) / README
+# 其余构建脚本与文档留在仓库里, 不进扩展包。
+
+# 构建与开发脚本(打包时由 vscode:prepublish 钩子执行, 不需要装进 vsix)
+gen_media.py
+prepack.js
+__pycache__/
+*.pyc
+
+# 仅用于 README 的总览拼版图(1.65MB, 扩展里用不到)
+media/thumb-grid.png
+
+# 仓库级文件
+.vscodeignore
+.gitignore
+*.vsix
+node_modules/
+.vscode-test/

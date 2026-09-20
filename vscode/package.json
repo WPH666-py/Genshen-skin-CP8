@@ -1,0 +1,112 @@
+{
+  "name": "genshen-skin-cp8",
+  "displayName": "原神CP8 — 胡桃×芙宁娜",
+  "description": "原神 CP 壁纸套件1: 单张样式壁纸一键切换 · 桌面桌宠 · 多 IDE 皮肤",
+  "version": "0.1.0",
+  "publisher": "wp666",
+  "license": "MIT",
+  "icon": "media/icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WPH666-py/Genshen-skin-CP8.git"
+  },
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "categories": [
+    "Other",
+    "Themes"
+  ],
+  "main": "./extension.js",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "genshencp8.openGallery",
+        "title": "原神CP8: 打开皮肤画廊"
+      },
+      {
+        "command": "genshencp8.set1",
+        "title": "原神CP8: 第1张 · 女仆"
+      },
+      {
+        "command": "genshencp8.set2",
+        "title": "原神CP8: 第2张 · 居家"
+      },
+      {
+        "command": "genshencp8.set3",
+        "title": "原神CP8: 第3张 · 节日"
+      },
+      {
+        "command": "genshencp8.setCard",
+        "title": "原神CP8: 卡片式(默认)"
+      },
+      {
+        "command": "genshencp8.setCover",
+        "title": "原神CP8: 满屏(cover 铺满)"
+      },
+      {
+        "command": "genshencp8.setShowall",
+        "title": "原神CP8: 完整(不裁切)"
+      },
+      {
+        "command": "genshencp8.setRandom",
+        "title": "原神CP8: 随机换一张"
+      },
+      {
+        "command": "genshencp8.openSwitcher",
+        "title": "原神CP8: 打开壁纸切换器"
+      },
+      {
+        "command": "genshencp8.startPet",
+        "title": "原神CP8: 启动桌面桌宠"
+      },
+      {
+        "command": "genshencp8.generateAll",
+        "title": "原神CP8: 生成全部样式(含 JetBrains 背景图)"
+      },
+      {
+        "command": "genshencp8.showInfo",
+        "title": "原神CP8: 环境自检"
+      }
+    ],
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "genshencp8",
+          "title": "原神CP8",
+          "icon": "media/genshencp8.svg"
+        }
+      ]
+    },
+    "views": {
+      "genshencp8": [
+        {
+          "id": "genshencp8.gallery",
+          "name": "皮肤画廊",
+          "type": "webview"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "Genshin Skin CP1",
+      "properties": {
+        "genshencp8.pythonPath": {
+          "type": "string",
+          "default": "",
+          "description": "Python 解释器路径。留空自动查找 python / python3。"
+        },
+        "genshencp8.repoPath": {
+          "type": "string",
+          "default": "",
+          "description": "仓库路径(含 src/genshen_skin_cp8 或 tools/wallpaper.py)。留空自动查找 pip 安装与常见克隆位置。"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "vscode:prepublish": "node prepack.js"
+  }
+}

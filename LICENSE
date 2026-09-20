@@ -1,0 +1,33 @@
+MIT License
+
+Copyright (c) 2026 Mr.Water (WPH666-py)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+----------------------------------------------------------------------------
+注意 / NOTE
+
+本许可仅覆盖代码。仓库与发行包内的插画素材
+(src/genshin_skin_cp1/assets/*.jpg) 为同人作品, 版权归原作者所有,
+不在 MIT 授权范围内, 仅限个人桌面美化使用, 请勿二次商用。
+
+This license covers the source code only. The illustration assets bundled in
+this repository and distribution package are fan artwork; copyright belongs to
+their original authors and is NOT covered by the MIT license. They are for
+personal desktop customization only and must not be used commercially.

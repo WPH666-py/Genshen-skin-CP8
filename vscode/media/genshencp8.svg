@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
+  <!-- 比心: 两只手合出一个心 -->
+  <path d="M12 13.6c-1.35-1.25-2.6-2.35-2.6-3.65a1.75 1.75 0 0 1 3.05-1.16l.55.62.55-.62A1.75 1.75 0 0 1 16.6 9.95c0 1.3-1.25 2.4-2.6 3.65l-1 .93z" fill="currentColor" stroke="none" opacity=".95"/>
+  <path d="M4.7 9.2 2.9 7.9a1 1 0 0 1 .5-1.8l2.6-.4"/>
+  <path d="M19.3 9.2l1.8-1.3a1 1 0 0 0-.5-1.8l-2.6-.4"/>
+  <path d="M4.9 11.4 3 10.2"/>
+  <path d="M19.1 11.4 21 10.2"/>
+  <path d="M8.4 15.4c.9 2.3 2.7 3.6 4.6 3.6s3.7-1.3 4.6-3.6"/>
+</svg>
